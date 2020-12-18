@@ -69,5 +69,6 @@ cc_library(
         "//mediapipe/calculators/util:top_k_scores_calculator",
         "//mediapipe/calculators/video:opencv_video_decoder_calculator",
         "//mediapipe/calculators/video:opencv_video_encoder_calculator",
+        "//mediapipe/graphs/youtube8m/calculators:labels_to_file_calculator",
     ],
 )
